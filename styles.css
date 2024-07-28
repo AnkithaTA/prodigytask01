@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: hsl(0, 322%, 96%);
+}
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 75px;
+  background: #29207c;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+nav .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  max-width: 90%;
+  background: #292f85;
+  margin: auto;
+}
+nav .navbar .logo a::before {
+  color: #9e9595;
+  font-size: 50px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: #291755;
+}
+nav .navbar .menu {
+  display: flex;
+}
+.navbar .menu li {
+  list-style: none;
+  margin: 0 15px;
+  font-size: large;
+  color: #f2f2f2;
+  text-decoration: #f5f0f0;
+}
+.navbar .menu li a:hover {
+  color: #dce1e8;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: solid;
+  background-color: rgb(95, 70, 84);
+}
+section {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #320636;
+  font-size: 70px;
+}
+#Home {
+  background: #dce1e8;
+  font-size: x-large;
+  color: #7d8b80;
+  text-shadow: #87a599;
+}
+#About {
+  background: #f2f2f2;
+  font-size: x-large;
+  color: #085038;
+  text-shadow: #083450;
+  margin-top: 50px;
+}
+.about {
+  font-size: larger;
+  color: #095236;
+  text-shadow: #064e2a;
+}
+#Category a:hover {
+  background: #e6e6e6;
+}
+#Latest {
+  background: #fff;
+}
+#Contact {
+  background: #f2f2f2;
+  font-size: medium;
+  color: #075339;
+  text-shadow: #9ba882;
+}
+#Feedback {
+  background: #e6e6e6;
+  font-size: larger;
+  color: #085e44;
+  text-shadow: #0c583b;
+}
+.button a {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  background: #24cf8e;
+  padding: 7px 12px;
+  font-size: 18px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.15);
+}
+.images {
+  flex-wrap: wrap;
+  height: 100px;
+  width: 100px;
+}
+.feedback {
+  margin-top: 100px;
+  color: #0d5e3f;
+  font-size: large;
+}
